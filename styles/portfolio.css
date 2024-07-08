@@ -1,0 +1,99 @@
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 300 to 800
+
+.open-sans-normal {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}
+
+/* shared style */
+.text-primary{
+    color: #FD6E0A;
+}
+
+.dark-2{
+    color: #474747;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.btn-primary{
+    background-color: #FD6E0A;
+    color: white;
+    border: none;
+    font-weight: bold;
+    padding: 18px 35px 19px 36px;
+    border-radius: 5px;
+}
+/* header */
+
+.header{
+    background-image: url('../images/developer.png'), url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+}
+
+/* Nav Style */
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 200px;
+}
+
+.nav-title{
+    font-weight: 800;
+    font-size: 45px;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+}
+
+nav ul li{
+    list-style: none;
+    margin-right: 51px;
+
+}
+
+nav li a{
+    text-decoration: none;
+}
+
+/* banner styles */
+
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 38px 0px 230px;
+ }
+
+ .banner-content{
+    max-width: 584px;
+ }
+.banner-greetings{
+    font-size: 45px;
+    font-weight: SemiBold;
+}
+
+.banner-title{
+    font-size: 85px;
+    font-weight: bold;
+}
+
+.banner-description{
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.banner-profile-pic{
+    width: 584px;
+
+}
+ 
+
