@@ -237,7 +237,7 @@ footer input[type="text"], footer input[type="email"], footer textarea{
 @media screen and (max-width: 576px) {
     .skills-container,
      .resume-container,
-      footer,
+      footer, nav, nav >ul,
       .about-items{
         flex-direction: column;
     }
@@ -254,4 +254,33 @@ footer input[type="text"], footer input[type="email"], footer textarea{
     /* footer input[type="text"], footer input[type="email"], footer textarea{
         width: calc(100% - 40px);
     } */
+
+    .header{
+        background-image: none;
+    }
+    .banner{
+        flex-direction: column;
+        margin:  0px 0px 0px 10px;;
+    }
+    .banner-title{
+        font-size: none;
+    }
+    .banner-profile-pic{
+        margin-top: 30px;
+        width: 100%;
+    
+    }
+    .banner-content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    nav {
+        margin: 0px 5px;
+    }
+
+    #first-btn{
+        margin-bottom: 10px;
+    }
+    
 }
