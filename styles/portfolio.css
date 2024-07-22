@@ -282,5 +282,11 @@ footer input[type="text"], footer input[type="email"], footer textarea{
     #first-btn{
         margin-bottom: 10px;
     }
+    nav ul li{
+        
+        margin-bottom: 10px;
+    
+    }
+    
     
 }
